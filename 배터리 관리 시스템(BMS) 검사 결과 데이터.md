@@ -49,9 +49,11 @@
 ## 수집 데이터 설명
 배터리팩의 정상작동을 확인하기 위해 전원 인가 후 아래 항목 데이터를 수집
 
-- 충전전류 감지 정확도(
-- 방전전류 감지 정확도
-- 온도센서 및 FET의 정상작동 감지 여부 
+- 전류 관련 측정값: Current Calibration Data, DCG Current Detection, CHG Current Detection
+- 전압 관련 측정값: Reference1 voltage_80V
+- FET Driver 전압: FET Driver 64V, FET Driver 72V, FET Driver 80V
+- 결과 분류: category (정상 / 불량 여부)
+- 기타: AFE (Analog Front End) 상태, 안전 관련 상태 등
 
 # 2. 데이터 수집 환경
 ## 데이터 수집 장비
