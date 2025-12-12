@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>이미지 템플릿</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR",
+          system-ui, sans-serif;
+        background-color: #f8f9fe;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 40px auto;
+        padding: 24px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        color: #111827;
+        text-align: center;
+      }
+
+      .desc {
+        font-size: 14px;
+        color: #6b7280;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+
+      .image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        min-height: 260px;
+      }
+
+      .image-wrapper img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-wrapper">
+        <!-- 🔽 여기 src만 교체해서 사용 -->
+        <img src="https://raw.githubusercontent.com/MINJU-B/KADaP_portal/main/25. Argoverse-2 모션 예측 데이터세트.png" alt="이미지 설명 텍스트" />
+      </div>
+    </div>
+  </body>
+</html>
